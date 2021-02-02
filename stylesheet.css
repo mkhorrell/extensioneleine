@@ -1,0 +1,64 @@
+body {
+  height: 140px;
+  width: 280px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+#holder {
+	display: grid;
+	grid-template-rows: repeat(2, 24px);
+	grid-template-columns: repeat(3, 24px);
+	width: 72px;
+	height: 72px;
+}
+#holder > div {
+	border: 2px solid #999;
+	cursor: pointer;
+}
+#lightskyblue {
+	background: lightskyblue;
+}
+#darkslateblue {
+	background: darkslateblue;
+}
+#royalblue {
+	background: royalblue;
+}
+#darkturquoise {
+	background: darkturquoise;
+}
+#lightseagreen {
+	background: lightseagreen;
+}
+#teal {
+	background: teal;
+}
+
+#txtholder {
+	display: grid;
+	grid-template-rows: repeat(1, 24px);
+	grid-template-columns: repeat(3, 24px);
+	width: 72px;
+	height: 72px;
+}
+#txtholder > div {
+	border: 2px solid #999;
+	cursor: pointer;
+}
+
+#gray {
+	background: gray;
+}
+#black {
+	background: black;
+}
+#white {
+	background: white;
+}

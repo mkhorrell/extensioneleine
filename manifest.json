@@ -1,0 +1,21 @@
+{
+"name": "Extensioneleine",
+"version": "0.1",
+"description": "Changes Chrome color scheme to be more Madeleine-friendly.",
+"manifest_version": 2,
+"browser_action": {
+    "default_popup": "./index.html",
+    "default_title": "This is the popup page",
+    "default_icon": "./mads.png"
+      },
+"content_scripts": [
+  {
+    "js": ["content.js"],
+    "css": ["content.css"],
+    "matches": ["<all_urls>"]
+  }
+],
+  "permissions": [
+      "tabs", "activeTab"
+  ]
+}
